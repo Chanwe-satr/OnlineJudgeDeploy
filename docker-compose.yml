@@ -45,7 +45,7 @@ services:
       #- judger_debug=1
   
   oj-backend:
-    image: crpi-eagyj0wicisd6zbc.cn-chengdu.personal.cr.aliyuncs.com/wbcoding/oj_backend:1.5
+    image: crpi-eagyj0wicisd6zbc.cn-chengdu.personal.cr.aliyuncs.com/wbcoding/oj_backend:1.0
     container_name: oj-backend
     restart: always
     depends_on:
